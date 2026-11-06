@@ -1,0 +1,20 @@
+[package]
+name = "text"
+version = "0.2.0"
+edition = "2024"
+
+[dependencies]
+fltk = "1.5.23"
+fltk-theme = "0.7.9"
+syntect = { version = "5.2", default-features = false, features = ["default-fancy"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
+debug = false
