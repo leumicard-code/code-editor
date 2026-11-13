@@ -1,3 +1,8 @@
+
+<img width="1082" height="951" alt="image" src="https://github.com/user-attachments/assets/edb43e8a-35c6-4ee0-88f8-5c5e0656cf0b" />
+
+
+
 Studio Code Editor — FLTK + Syntect IDE
 
     High-Performance Native IDE Engine • 3.6 MiB • Million Dollar UI
